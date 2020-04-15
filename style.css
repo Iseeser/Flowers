@@ -134,10 +134,8 @@ a{
 	color: white;
 	position: absolute;
 	margin-top: 20px;
-<<<<<<< HEAD
 	margin-left: 2%;
-=======
-	margin-ledt: 0 auto;
+	margin-left: 0 auto;
 }
 .main_elem{
 	background:blue;
@@ -163,5 +161,4 @@ a{
 	display: block;
 	padding: 5px;
 	color: white;
->>>>>>> 6a063a8c071ecd3849630c358d083b60cd560e53
 }
