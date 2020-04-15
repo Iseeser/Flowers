@@ -104,8 +104,8 @@ a{
 	height: 90%;
 }
 .info{
-	background-color: rgba(255, 140, 0, 0.3);
-	height: 400px;
+	
+	height: fit-content;
 	width: 25%;
 	margin-top: 3%;
 	margin-left: 3%;
@@ -124,23 +124,60 @@ a{
 
 .drop_down{
 	background-color: tomato;
-	height: 280px;
+	
+	overflow: hidden;
 	border: 4px yellow solid;
+	height: 54px;
 	
 }
+.drop_down_head{
+	cursor: pointer;
+}
+
 
 .text{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	color: white;
-	position: absolute;
-	margin-left: 2%;
-	margin-top: 10px;
+	
+	padding: 10px 20px;
+}
+.plus{
+	position: relative;
+	float: right;
+	margin-top: -30px;
+	margin-right: 30px;
+	transition: all 0.6s ease;
+	
 }
 
-.cat{
+.plus::before{
+	content: '';
 	position: absolute;
-	margin-top: 4%;
+	width: 2px;
+	height: 10px;
+	background: black;
+	transition: all 0.3s ease;
+}
+.plus::after{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	
+	
+	transform: rotate(90deg);
+	
+}
+.g::before{
+	transform: rotate(90deg);
+}
+
+
+.cat{
+	
+	margin: 0;
 	font-size: 20px;
 	line-height: 40px;
 	font-family: Arial, Helvetica, sans-serif;

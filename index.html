@@ -1,63 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Магазинчик цветочков</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="style_git.css">
 </head>
+
 <body>
 	<img id="buket" src="image/buket.png">
-<div class="poisk">
-	<img id="__poisk" src="image/poisk.png">
-<input id="poisk" type="text" name="" placeholder="Поиск">
+	<div class="poisk">
+		<img id="__poisk" src="image/poisk.png">
+		<input id="poisk" type="text" name="" placeholder="Поиск">
 
-</div>
+	</div>
 
 	<p align="center">
-<font face="Times New Roman" color="yellow" size="7"><b><i>House of Flowers</i></b></font></p>
+		<font face="Times New Roman" color="yellow" size="7"><b><i>House of Flowers</i></b></font>
+	</p>
 
-<div id="shapka" >
+	<div id="shapka">
 
-<div class="s1"> <a href=""><font id="fon1" size="6"><b>Букеты</b></font></a><div class="hidden1"></div></div>
-<div class="s1"> <a href=""><font id="fon1" size="6"><b>Композиция</b></font></a> </div>
-<div class="s1"> <a href=""><font id="fon1" size="6"><b>Подарки</b></font></a> </div>
-<div class="s1"> <a href=""><font id="fon1" size="6"><b>Свадьба</b></font></a> </div>
-
-</div>
-
-<div class="container">
-	<div class="info">
-		<div class="drop_down"><span class="text">Цветы</span>
-			<ul class="cat">
-				<li>Розы</li>
-				<li>Тюльпаны</li>
-				<li>Пионы</li>
-				<li>Алоэ</li>
-				<li>Хризантемы</li>
-			</ul>
+		<div class="s1"> <a href="">
+				<font id="fon1" size="6"><b>Букеты</b></font>
+			</a>
+			<div class="hidden1"></div>
 		</div>
-		<div class="drop_down"><span class="text">По типу</span>
-			<ul class="cat">
-				<li>Монобукеты</li>
-				<li>Дуобукеты</li>
-				<li>В коробке</li>
-				<li>В корзинке</li>
-			</ul>
-		</div>
-		<div class="drop_down"><span class="text">По размеру</span>
-			<ul class="cat">
-				<li>Миниатюрные</li>
-				<li>Большие</li>
-				<li>Гигантские</li>
-			</ul>
-		</div>
+		<div class="s1"> <a href="">
+				<font id="fon1" size="6"><b>Композиция</b></font>
+			</a> </div>
+		<div class="s1"> <a href="">
+				<font id="fon1" size="6"><b>Подарки</b></font>
+			</a> </div>
+		<div class="s1"> <a href="">
+				<font id="fon1" size="6"><b>Свадьба</b></font>
+			</a> </div>
+
 	</div>
-	<div class="main" id="main_id">
+
+	<div class="container">
+		<div class="info">
+			<div class="drop_down">
+				<div class="drop_down_head" onclick="action(0)">
+					<div class="text">Цветы</div><div class="plus"></div>
+				</div>
+				<div class="drop_down_content">
+					<ul class="cat">
+						<li>Розы</li>
+						<li>Тюльпаны</li>
+						<li>Пионы</li>
+						<li>Алоэ</li>
+						<li>Хризантемы</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="drop_down">
+				<div class="drop_down_head" onclick="action(1)">
+					<div class="text">По типу</div><div class="plus"></div>
+				</div>
+				<div class="drop_down_content">
+				<ul class="cat">
+					<li>Монобукеты</li>
+					<li>Дуобукеты</li>
+					<li>В коробке</li>
+					<li>В корзинке</li>
+				
+				</ul>
+				</div>
+			</div>
+			<div class="drop_down">
+				<div class="drop_down_head" onclick="action(2)">
+					<div class="text">По размеру</div><div class="plus"></div>
+				</div>
+				<div class="drop_down_content">
+				<ul class="cat">
+					<li>Миниатюрные</li>
+					<li>Большие</li>
+					<li>гиганские</li>
+					
+				
+				</ul>
+				</div>
+			</div>
 		
+		</div>
+		<div class="main" id="main_id">
+
+		</div>
 	</div>
-</div>
-<script src="text_for_elems.js"></script>
-<script src="js.js"></script>
-<script src="js_git.js"></script>
+	<script src="text_for_elems.js"></script>
+	<script src="js.js"></script>
+	<script src="js_git.js"></script>
 </body>
+
 </html>
