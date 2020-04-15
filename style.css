@@ -99,7 +99,11 @@ a{
 .container{
 	
 	width: 100%;
+<<<<<<< HEAD
 	height: fit-content;
+=======
+	height: 90%;
+>>>>>>> f206d8acc9f246edb734c72fff60a361ef6d95d3
 }
 .info{
 	background-color: rgba(255, 140, 0, 0.3);
@@ -122,7 +126,7 @@ a{
 
 .drop_down{
 	background-color: tomato;
-	height: 300px;
+	height: 280px;
 	border: 4px yellow solid;
 	
 }
@@ -132,8 +136,42 @@ a{
 	font-size: 30px;
 	color: white;
 	position: absolute;
-	margin-top: 20px;
 	margin-left: 2%;
-	margin-left: 0 auto;
+	margin-top: 10px;
+}
+
+.cat{
+	position: absolute;
+	margin-top: 4%;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #66e0f6;
+}
+
+.main_elem{
+	background:blue;
+	width: 200px;
+	height: 200px;
+	border: 2px white solid;
+}
+.main_elem_head{
+	background: red;
+	height: 170px;
+	width: 100%;
+}
+.main_elem_head_text{
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	background: wheat;
+}
+.main_elem_bottom{
+	text-align: center;
+}
+.main_elem_bottom_a{
+	display: block;
+	padding: 5px;
+	color: white;
 }
 
