@@ -42,6 +42,7 @@ body{
 	width: 94%;
 	border-radius: 50px;
 	z-index: 3;
+	white-space: nowrap;
 }
 
 
@@ -55,8 +56,8 @@ body{
 	display: inline-block;
 	margin: 0 auto;
 	position: relative;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 .s1:hover{
