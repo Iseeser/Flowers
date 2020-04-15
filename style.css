@@ -124,7 +124,7 @@ a{
 
 .drop_down{
 	background-color: tomato;
-	
+	transition: all 0.6s ease;
 	overflow: hidden;
 	border: 4px yellow solid;
 	height: 54px;
