@@ -1,21 +1,21 @@
 .main_elem{
 	background:blue;
-	width: 200px;
-	height: 200px;
+	width: 230px;
+	height: 300px;
 	border: 2px white solid;
 }
 .main_elem_head{
 	background: red;
-	height: 170px;
+	height: 90%;
 	width: 100%;
 }
 .main_elem_head_text{
-	height: 20px;
 	width: 100%;
 	text-align: center;
 	background: wheat;
 }
 .main_elem_bottom{
+
 	text-align: center;
 }
 .main_elem_bottom_a{
