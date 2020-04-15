@@ -133,10 +133,15 @@ a{
 	font-size: 30px;
 	color: white;
 	position: absolute;
-	margin-top: 20px;
 	margin-left: 2%;
-	margin-left: 0 auto;
+	margin-top: 10px;
 }
+
+.cat{
+	position: absolute;
+	margin: 20px;
+}
+
 .main_elem{
 	background:blue;
 	width: 200px;
