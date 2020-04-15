@@ -134,5 +134,34 @@ a{
 	color: white;
 	position: absolute;
 	margin-top: 20px;
+<<<<<<< HEAD
 	margin-left: 2%;
+=======
+	margin-ledt: 0 auto;
+}
+.main_elem{
+	background:blue;
+	width: 200px;
+	height: 200px;
+	border: 2px white solid;
+}
+.main_elem_head{
+	background: red;
+	height: 170px;
+	width: 100%;
+}
+.main_elem_head_text{
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	background: wheat;
+}
+.main_elem_bottom{
+	text-align: center;
+}
+.main_elem_bottom_a{
+	display: block;
+	padding: 5px;
+	color: white;
+>>>>>>> 6a063a8c071ecd3849630c358d083b60cd560e53
 }
