@@ -97,9 +97,9 @@ a{
 }
 
 .container{
-	background-color: white;
+	
 	width: 100%;
-	height: 500px;
+	height: fit-content;
 }
 .info{
 	background-color: rgba(255, 140, 0, 0.3);
@@ -111,11 +111,10 @@ a{
 }
 
 .main{
-	background-color: rgba(255, 140, 0, 0.3);
-	height: 400px;
+	
 	width: 65%;
 	float: right;
-	
+	text-align: center;
 	margin-top: 3%;
 	margin-right: 3%;
 	
@@ -137,3 +136,4 @@ a{
 	margin-left: 2%;
 	margin-left: 0 auto;
 }
+
