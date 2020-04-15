@@ -99,11 +99,8 @@ a{
 .container{
 	
 	width: 100%;
-<<<<<<< HEAD
 	height: fit-content;
-=======
 	height: 90%;
->>>>>>> f206d8acc9f246edb734c72fff60a361ef6d95d3
 }
 .info{
 	background-color: rgba(255, 140, 0, 0.3);
