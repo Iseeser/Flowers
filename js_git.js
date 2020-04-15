@@ -14,7 +14,7 @@ let check = [0,0,0];
 
 function action(num){
     if(check[num]%2==0){
-    document.querySelector('.info').children[num].style.height = 'fit-content';
+    document.querySelector('.info').children[num].style.height = 54 + document.querySelector('.info').children[num].children[1].children[0].offsetHeight + 'px';
     document.querySelector('.info').children[num].children[0].children[1].classList.add('g');
     }
     else {
