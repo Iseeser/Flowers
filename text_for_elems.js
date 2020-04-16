@@ -27,6 +27,10 @@ let elem_obj = [
     {
         img_src:'image/roses/7.jpg',
         text:'fsasfasfsafsa'
+    },
+    {
+        img_src:'image/aloe/1.jpg',
+        text:'fsasfasfsafsa'
     }
 ];
 
