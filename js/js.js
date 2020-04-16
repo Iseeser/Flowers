@@ -5,7 +5,7 @@ let _buket = document.getElementById('buket');
 let anim = requestAnimationFrame(move);
 
 function move(){
-    
+    console.log('jopa')
     i+= 0.1;
    
 
