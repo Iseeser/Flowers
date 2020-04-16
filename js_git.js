@@ -29,11 +29,12 @@ for(let i=0;i<blocks_len;i++){
     _main_cont.innerHTML += `<div class="main_elem">
     <div class="main_elem_head">
         <div class="main_elem_head_img">
-            <img src ="${elem_obj[i].img_src}" height = "270px" width = "230px">
-        </div>
-                <div class="main_elem_head_text">
+        <div class="main_elem_head_text">
                     ${elem_obj[i].text} 
                  </div>
+            <img src ="${elem_obj[i].img_src}" height = "270px" width = "230px">
+        </div>
+                
     </div>
     <div class="main_elem_bottom">
         <a href="#" class="main_elem_bottom_a">Узнать больше</a>
