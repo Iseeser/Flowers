@@ -1,17 +1,10 @@
 body{
-	
+	height: 1080px;
+	background:linear-gradient(180deg, #000004, #66e0f6) no-repeat;
 	margin:0;
 	padding: 0;
 }
-#back{
-	top: 0;
-	left: 0;
-	position: fixed;
-	height: 1080px;
-	width: 1920px;
-	z-index: -1;
-	background:linear-gradient(180deg, #000004, #66e0f6) no-repeat;
-}
+
 #poisk{
 	outline: none;
 	margin-left: 80%;
@@ -23,7 +16,7 @@ body{
 	border-color: #696607;
 	position: absolute;
 	padding-left: 40px;
-	z-index: 1;
+	z-index: 0;
 	border:4px #696607 solid;
 }
 
@@ -32,7 +25,7 @@ body{
 	margin-top: 14px;
 	margin-left: 80.5%;
 	position: absolute;
-	z-index: 3;
+	z-index: 1;
 }
 
 #shapka{
@@ -48,7 +41,7 @@ body{
 	margin-top: 50px;
 	width: 94%;
 	border-radius: 50px;
-	z-index: 30;
+	z-index: 3;
 	white-space: nowrap;
 }
 
@@ -190,5 +183,31 @@ a{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #66e0f6;
 	
+}
+
+.main_elem{
+	background:blue;
+	width: 200px;
+	height: 200px;
+	border: 2px white solid;
+}
+.main_elem_head{
+	background: red;
+	height: 170px;
+	width: 100%;
+}
+.main_elem_head_text{
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	background: wheat;
+}
+.main_elem_bottom{
+	text-align: center;
+}
+.main_elem_bottom_a{
+	display: block;
+	padding: 5px;
+	color: white;
 }
 

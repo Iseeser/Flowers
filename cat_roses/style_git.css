@@ -19,10 +19,9 @@
 	width: 100%;
 }
 .main_elem_head_text{
-	position: absolute;
     transition: all 0.6s ease;
-    height: 300px;
-    width: 230px;
+    height: 100%;
+    width: 100%;
 	text-align: center;
 	opacity: 0;
 }
