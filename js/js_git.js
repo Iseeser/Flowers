@@ -16,11 +16,6 @@ for(let j in flowers_category){
     if(location.href.indexOf('index')>0){index_page=true};
 }
 
-
-
-
-
-
 function action(num){
     if(check[num]%2==0){
     document.querySelector('.info').children[num].style.height = 54 + document.querySelector('.info').children[num].children[1].children[0].offsetHeight + 'px';
