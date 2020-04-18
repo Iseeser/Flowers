@@ -7,144 +7,178 @@ if(location.href.indexOf('index')<0) help_symbol ='.';
 let elem_obj = [
     {   
         img_src:help_symbol+'./image/roses/1.jpg',
-        text:'dsadassad'
-        
+        text:'dsadassad',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/roses/2.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/roses/3.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/roses/4.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/roses/5.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/roses/6.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/roses/7.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/1.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/2.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/3.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/4.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/5.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/6.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/7.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/1.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/2.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/3.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/4.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/5.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/6.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/7.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/1.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/2.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/3.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/4.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/5.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/6.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/peonies/7.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/1.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/2.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/3.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/4.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/5.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/6.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     },
     {
         img_src:help_symbol+'./image/tulips/7.jpg',
-        text:'fsasfasfsafsa'
+        text:'fsasfasfsafsa',
+        type:'box'
     }
 ];
 
