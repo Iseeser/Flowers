@@ -7,178 +7,203 @@ if(location.href.indexOf('index')<0) help_symbol ='.';
 let elem_obj = [
     {   
         img_src:help_symbol+'./image/roses/1.jpg',
-        text:'dsadassad',
-        type:'box'
+        type:'-roses-mono-basket-giant-bukets-'
     },
     {
         img_src:help_symbol+'./image/roses/2.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-roses-box-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/roses/3.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-roses-mono-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/roses/4.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-roses-box-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/roses/5.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-roses-box-mini-gifts-'
     },
     {
         img_src:help_symbol+'./image/roses/6.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-roses-box-giant-bukets-'
     },
     {
         img_src:help_symbol+'./image/roses/7.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-roses-box-mini-mono-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/1.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/2.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-mono-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/3.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/4.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-mono-giant-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/5.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/6.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/chrysanthemums/7.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-chrysanthemums-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/1.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/2.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-box-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/3.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-mono-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/4.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-giant-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/5.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-box-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/6.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-mono-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/hydrangeas/7.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-hydrangeas-mono-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/peonies/1.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mono-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/peonies/2.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mono-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/peonies/3.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mono-box-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/peonies/4.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mono-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/peonies/5.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mono-giant-bukets-'
     },
     {
         img_src:help_symbol+'./image/peonies/6.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mini-composition-'
     },
     {
         img_src:help_symbol+'./image/peonies/7.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-peonies-mini-composition-'
     },
     {
         img_src:help_symbol+'./image/tulips/1.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-box-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/tulips/2.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/tulips/3.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-giant-bukets-'
     },
     {
         img_src:help_symbol+'./image/tulips/4.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/tulips/5.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-mono-large-bukets-'
     },
     {
         img_src:help_symbol+'./image/tulips/6.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-mono-mini-bukets-'
     },
     {
         img_src:help_symbol+'./image/tulips/7.jpg',
-        text:'fsasfasfsafsa',
-        type:'box'
+        type:'-tulips-mono-mini-bukets-'
+    },
+    {
+        img_src:help_symbol+'./image/gifts/1.jpg',
+        type:'-gifts-'
+    },
+    {
+        img_src:help_symbol+'./image/gifts/2.jpg',
+        type:'-gifts-'
+    },
+    {
+        img_src:help_symbol+'./image/gifts/3.jpg',
+        type:'-gifts-'
+    },
+    {
+        img_src:help_symbol+'./image/gifts/4.jpg',
+        type:'-gifts-'
+    },
+    {
+        img_src:help_symbol+'./image/gifts/5.jpg',
+        type:'-gifts-'
+    },
+    {
+        img_src:help_symbol+'./image/wedding/1.jpg',
+        type:'-wedding-'
+    },
+    {
+        img_src:help_symbol+'./image/wedding/2.jpg',
+        type:'-wedding-'
+    },
+    {
+        img_src:help_symbol+'./image/wedding/3.jpg',
+        type:'-wedding-'
+    },
+    {
+        img_src:help_symbol+'./image/wedding/4.jpg',
+        type:'-wedding-'
+    },
+    {
+        img_src:help_symbol+'./image/wedding/5.jpg',
+        type:'-wedding-'
+    },
+    {
+        img_src:help_symbol+'./image/composition/1.jpg',
+        type:'-roses-box-mini-composition-'
+    },
+    {
+        img_src:help_symbol+'./image/composition/2.jpg',
+        type:'-composition-large-basket-'
+    },
+    {
+        img_src:help_symbol+'./image/composition/3.jpg',
+        type:'-composition-giant-basket-'
+    },
+    {
+        img_src:help_symbol+'./image/composition/4.jpg',
+        type:'-roses-composition-large-basket-'
+    },
+    {
+        img_src:help_symbol+'./image/composition/5.jpg',
+        type:'-composition-large-basket-'
     }
 ];
 

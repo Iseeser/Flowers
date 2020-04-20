@@ -1,6 +1,6 @@
 .main_elem{
     display: inline-block;
-	background:blue;
+	background:pink;
 	width: 230px;
 	height: 300px;
     border: 2px white solid;
@@ -26,12 +26,20 @@
 	text-align: center;
 	opacity: 0;
 }
-.main_elem_bottom{
 
-	text-align: center;
-}
-.main_elem_bottom_a{
-	display: block;
-	padding: 5px;
-	color: white;
-}
+button {
+	display: inline-block;
+	color: black;
+	background: rgb(243, 70, 200);
+	font-weight: 700;
+	text-decoration: none;
+	user-select: none;
+	margin-top: 1.5px;
+	padding: .4em 6.5em;
+	outline: none;
+	border: 1px solid;
+	border-radius: 6px;
+	transition: 0.2s;
+  } 
+button:hover { background: rgb(248, 139, 252); }
+button:active { background: rgba(255,255,255,.6); }

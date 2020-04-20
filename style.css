@@ -3,6 +3,16 @@ body{
 	margin:0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+	color:white;
+}
+#header{
+	text-decoration: none;
+	color: lightblue;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80px;
+}
 #back{
 	top: 0;
 	left: 0;
@@ -10,7 +20,7 @@ body{
 	height: 1080px;
 	width: 1920px;
 	z-index: -1;
-	background:linear-gradient(180deg, #000004, #66e0f6) no-repeat;
+	background:linear-gradient(180deg, #000004, #d53cfb) no-repeat;
 }
 #poisk{
 	outline: none;
@@ -43,8 +53,8 @@ body{
 	margin-top: 3%;
 
 	height: 60px;
-	background-color: rgba(255, 140, 0, 0.3);
-
+	background-color: rgba(255, 97, 176, 0.438);
+	
 	margin-top: 50px;
 	width: 94%;
 	border-radius: 50px;
@@ -90,7 +100,7 @@ body{
 .s2:hover #fon1,
 .s3:hover #fon1,
 .s4:hover #fon1{
-	color: black;
+	color: rgb(255, 157, 225);
 
 }
 
@@ -109,6 +119,7 @@ a{
 	width: 100%;
 	height: fit-content;
 	height: 90%;
+	text-decoration: none;
 }
 .info{
 	
@@ -131,10 +142,10 @@ a{
 }
 
 .drop_down{
-	background-color: tomato;
+	background-color: rgba(255, 97, 176, 0.438);
 	transition: all 0.6s ease;
 	overflow: hidden;
-	border: 4px yellow solid;
+	border: 2px rgba(247, 117, 236, 0.753) solid;
 	height: 54px;
 }
 
@@ -178,7 +189,6 @@ a{
 }
 .g::before{
 	transform: rotate(90deg);
-	
 }
 
 
@@ -188,7 +198,11 @@ a{
 	font-size: 20px;
 	line-height: 40px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #66e0f6;
+	color: #f7fbfc;
+	text-decoration: none;
 	
 }
 
+.drop_down_content{
+	text-decoration: none;
+}
